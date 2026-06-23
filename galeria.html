@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Motos - Nosso Projeto</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">MeuSite</div>
+            
+            <button class="hamburger" id="hamburger">☰</button>
+            
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="galeria" id="galeria">
+            <h2>Nossa Frota</h2>
+            
+            <div class="showcase">
+                <img src="imagens/bk.jpg" alt="Moto em Destaque" id="imagem-principal" class="imagem-destaque">
+            </div>
+
+            <div class="miniaturas-container">
+                <img src="imagens/bk.jpg" alt="Moto BK" class="miniatura ativa">
+                <img src="imagens/shot(2).jpg" alt="Moto Shot" class="miniatura">
+                <img src="imagens/gs75(2).jpg" alt="Moto GS75" class="miniatura">
+                <img src="imagens/cbr(2).jpg" alt="Moto CBR" class="miniatura">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto de Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
